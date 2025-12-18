@@ -1,24 +1,22 @@
 name: meihaxi2513
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 2/6 * * *'
+    - cron: '23 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: meihaxi2513
         env:
-          jfl65: ${{ secrets.jfl65 }}
+          wwtl23: ${{ secrets.wwtl23 }}
         run: |
-          echo $jfl65 | jq -r .q628 | /bin/bash
-          echo $x153 | jq -r .m4 | /bin/bash
-          echo $xtm8 | jq -r .cdrcw35 | /bin/bash
-          echo $uyt87686 | jq -r .gw3 | /bin/bash
-          echo $kk8 | jq -r .mlnc870 | /bin/bash
-          echo $w7 | jq -r .ksxze0636 | /bin/bash
-          echo $nq1710 | jq -r .sv75387 | /bin/bash
-          echo $rm547 | jq -r .eklfv67063 | /bin/bash
+          echo $wwtl23 | jq -r .n95217 | /bin/bash
+          echo $oatv455 | jq -r .oqnb97649 | /bin/bash
+          echo $rmx44348 | jq -r .fzlmg61318 | /bin/bash
+          echo $c32737 | jq -r .urusg31 | /bin/bash
+          echo $eye31 | jq -r .t97 | /bin/bash
+          echo $tvaw59 | jq -r .hgr8 | /bin/bash
 
